@@ -7,5 +7,5 @@ import { Gif } from 'src/app/gifs/interfaces/gif.interface';
   templateUrl: './gifs-list-item.component.html',
 })
 export class GifsListItemComponent {
-  imageUrl = input.required<Gif>();
+  gif = input.required<Gif>();
  }
